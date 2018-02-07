@@ -40,6 +40,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    func application(_ app: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        if url.scheme == "Meetings" {
+            let service = OutlookService.shared()
+            service.handleOAuthCallback(url: url)
+            return true
+        }
+        else {
+            return false
+        }
+    }
 
 
 }

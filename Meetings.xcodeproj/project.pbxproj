@@ -17,6 +17,7 @@
 		C3CF5EFF202B83F300A8CB89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CF5EFD202B83F300A8CB89 /* LaunchScreen.storyboard */; };
 		C3CF5F0A202B83F300A8CB89 /* MeetingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF5F09202B83F300A8CB89 /* MeetingsTests.swift */; };
 		C3CF5F15202B83F300A8CB89 /* MeetingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF5F14202B83F300A8CB89 /* MeetingsUITests.swift */; };
+		C3CF5F23202B8D4C00A8CB89 /* OutlookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF5F22202B8D4C00A8CB89 /* OutlookService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C3CF5F10202B83F300A8CB89 /* MeetingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CF5F14202B83F300A8CB89 /* MeetingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsUITests.swift; sourceTree = "<group>"; };
 		C3CF5F16202B83F300A8CB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CF5F22202B8D4C00A8CB89 /* OutlookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlookService.swift; sourceTree = "<group>"; };
 		CE1B3F2DD5E909C9C89BC8EA /* Pods_MeetingsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23ADB507892DAD03260D6E9 /* Pods-MeetingsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingsTests/Pods-MeetingsTests.release.xcconfig"; sourceTree = "<group>"; };
 		F4321FA6CD0FB70C6A434EF8 /* Pods-MeetingsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingsUITests/Pods-MeetingsUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				C3CF5EFB202B83F300A8CB89 /* Assets.xcassets */,
 				C3CF5EFD202B83F300A8CB89 /* LaunchScreen.storyboard */,
 				C3CF5F00202B83F300A8CB89 /* Info.plist */,
+				C3CF5F22202B8D4C00A8CB89 /* OutlookService.swift */,
 			);
 			path = Meetings;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 			files = (
 				C3CF5EF7202B83F300A8CB89 /* ViewController.swift in Sources */,
 				C3CF5EF5202B83F300A8CB89 /* AppDelegate.swift in Sources */,
+				C3CF5F23202B8D4C00A8CB89 /* OutlookService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
